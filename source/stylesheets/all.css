@@ -14,6 +14,7 @@ body {
 h1, h2 {
   color: white;
   font-family: 'Museo Slab W01_500', sans-serif;
+  margin: 10px;
 }
 
 h2 {
@@ -24,13 +25,18 @@ p {
   color: white;
   font-family: 'Proxima N W01 Reg', sans-serif;
   font-size: 18px;
+  margin-top: 0;
+  line-height: 24px;
+}
+
+.short-width {
+  max-width: 500px;
+  margin: 0 auto;
+  line-height: 24px;
 }
 
 .logo {
-  margin: 0 auto;
-  width: 285px;
-  height: 210px;
-  background: transparent url(https://s3.amazonaws.com/f.cl.ly/items/2Y2L0K171A0k3d0e2z20/mic-white.png) 285px 210px;
+  margin: 0 auto 20px auto;
 }
 
 .section {
@@ -63,4 +69,35 @@ p {
   height: 68px;
   border-radius: 50px;
   padding: 3px;
+}
+
+input {
+  background: white;
+  border: none;
+  padding: 10px 12px;
+  border-radius: 6px;
+  font-size: 18px;
+  font-family: 'Museo Slab W01_500', sans-serif;
+}
+
+.button {
+  background: #5BBEEC;
+  color: white;
+}
+
+.response {
+  max-width: 500px;
+  margin: 20px auto;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  line-height: 22px;
+}
+
+.success-response {
+  background: #2ecc71;
+}
+
+.error-response {
+  background: #e74c3c;
 }
