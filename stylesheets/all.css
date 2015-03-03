@@ -29,6 +29,10 @@ p {
   line-height: 24px;
 }
 
+strong {
+  font-family: 'MuseoSlabW01-700Italic', sans-serif;
+}
+
 .short-width {
   max-width: 620px;
   margin: 0 auto;
