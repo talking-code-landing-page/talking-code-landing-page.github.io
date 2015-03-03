@@ -47,6 +47,14 @@
 #   end
 # end
 
+activate :deploy do |deploy|
+  deploy.build_before = true
+
+  deploy.method = :git
+  deploy.remote = "github"
+  deploy.branch = "master"
+end
+
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'javascripts'
